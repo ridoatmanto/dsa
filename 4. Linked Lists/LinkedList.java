@@ -107,7 +107,7 @@ class LinkedList {
         }
     }
 
-    // Original one really depend on sorting first.
+    // Original one was rely on depend on sorting first.
     // public LinkedList reverse() {
     // LinkedList reversedList = new LinkedList();
     // Link nextLink = null;
@@ -162,7 +162,7 @@ class LinkedList {
             System.out.println("temp " + temp.getKey());
         }
 
-        temp.setNext(listParam.first); // because linkParam already chained before.
-        // So, wen need first link, the rest will follow.
+        temp.setNext(listParam.first); // Because listParam already chained before.
+        // So, when need first link, the rest will follow.
     }
 }
